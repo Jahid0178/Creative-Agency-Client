@@ -10,7 +10,7 @@ const Service = (props) => {
   return (
     <>
       <Grid item xs={12} sm={12} md={4}>
-        <Card sx={{ maxWidth: 345, textAlign: "center" }}>
+        <Card variant="outlined" sx={{ maxWidth: 345, textAlign: "center" }}>
           <CardMedia
             component="img"
             sx={{ width: 80, margin: "auto", pt: 2 }}
