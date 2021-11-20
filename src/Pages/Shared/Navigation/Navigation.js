@@ -24,10 +24,46 @@ const Navigation = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             News
           </Typography>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/portfolio">Our Portfolio</NavLink>
-          <NavLink to="/team">Our Team</NavLink>
-          <NavLink to="/contact">Contact Us</NavLink>
+          <NavLink
+            style={{
+              color: "#fff",
+              textDecoration: "none",
+              marginLeft: "15px",
+            }}
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            style={{
+              color: "#fff",
+              textDecoration: "none",
+              marginLeft: "15px",
+            }}
+            to="/portfolio"
+          >
+            Our Portfolio
+          </NavLink>
+          <NavLink
+            style={{
+              color: "#fff",
+              textDecoration: "none",
+              marginLeft: "15px",
+            }}
+            to="/team"
+          >
+            Our Team
+          </NavLink>
+          <NavLink
+            style={{
+              color: "#fff",
+              textDecoration: "none",
+              marginLeft: "15px",
+            }}
+            to="/contact"
+          >
+            Contact Us
+          </NavLink>
         </Toolbar>
       </AppBar>
     </Box>
