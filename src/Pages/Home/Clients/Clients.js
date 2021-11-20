@@ -12,7 +12,7 @@ const Clients = () => {
   return (
     <Box sx={{ my: 5 }}>
       <Container>
-        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+        <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
           <img style={{ width: 150, height: 50 }} src={Slack} alt="" />
           <img style={{ width: 150, height: 50 }} src={Google} alt="" />
           <img style={{ width: 150, height: 50 }} src={Uber} alt="" />
