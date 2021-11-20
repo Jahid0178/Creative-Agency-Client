@@ -1,5 +1,5 @@
 .banner-container {
-  height: 80vh;
+  height: 100vh;
   background: #FBD062;
   clip-path: polygon(0 0, 100% 0%, 100% 78%, 0% 100%);
 }

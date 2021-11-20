@@ -9,8 +9,8 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box position="sticky" sx={{ flexGrow: 1, top: 0, zIndex: 999 }}>
+      <AppBar position="fixed" sx={{ background: "#FBD062", boxShadow: 0 }}>
         <Toolbar>
           <IconButton
             size="large"
@@ -26,9 +26,10 @@ const Navigation = () => {
           </Typography>
           <NavLink
             style={{
-              color: "#fff",
+              color: "#333",
               textDecoration: "none",
               marginLeft: "15px",
+              fontWeight: 500,
             }}
             to="/"
           >
@@ -36,9 +37,10 @@ const Navigation = () => {
           </NavLink>
           <NavLink
             style={{
-              color: "#fff",
+              color: "#333",
               textDecoration: "none",
               marginLeft: "15px",
+              fontWeight: 500,
             }}
             to="/portfolio"
           >
@@ -46,9 +48,10 @@ const Navigation = () => {
           </NavLink>
           <NavLink
             style={{
-              color: "#fff",
+              color: "#333",
               textDecoration: "none",
               marginLeft: "15px",
+              fontWeight: 500,
             }}
             to="/team"
           >
@@ -56,9 +59,10 @@ const Navigation = () => {
           </NavLink>
           <NavLink
             style={{
-              color: "#fff",
+              color: "#333",
               textDecoration: "none",
               marginLeft: "15px",
+              fontWeight: 500,
             }}
             to="/contact"
           >

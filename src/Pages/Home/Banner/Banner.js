@@ -14,7 +14,7 @@ const Banner = () => {
   return (
     <Box className="banner-container" sx={{ mt: 2 }}>
       <Container>
-        <Grid container spacing={2} style={alignment}>
+        <Grid container spacing={2} style={alignment} sx={{ pt: 8 }}>
           <Grid item xs={12} sm={12} md={6}>
             <Typography
               variant="h3"
