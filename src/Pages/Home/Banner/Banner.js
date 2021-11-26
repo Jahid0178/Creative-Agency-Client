@@ -28,7 +28,12 @@ const Banner = () => {
               ea, sint eum voluptates doloribus explicabo illo rem accusantium
               eius quibusdam accusamus corporis.
             </Typography>
-            <Button variant="contained">Hire us</Button>
+            <Button
+              variant="contained"
+              sx={{ width: 170, height: 45, backgroundColor: "#111430" }}
+            >
+              Hire us
+            </Button>
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
             <img src={BannerBg} alt="" style={{ width: "100%" }} />

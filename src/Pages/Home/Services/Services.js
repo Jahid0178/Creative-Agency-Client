@@ -27,7 +27,7 @@ const services = [
 
 const Services = () => {
   return (
-    <Box>
+    <Box sx={{ my: 10 }}>
       <Container>
         <Typography
           variant="h4"
