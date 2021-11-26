@@ -6,6 +6,8 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
 import Logo from "../../../Images/Logos/logo.png";
+import { Button } from "@mui/material";
+import "./Navigation.css";
 
 const Navigation = () => {
   return (
@@ -69,6 +71,7 @@ const Navigation = () => {
             >
               Contact Us
             </NavLink>
+            <Button className="login-btn">Login</Button>
           </Box>
         </Toolbar>
       </AppBar>
