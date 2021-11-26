@@ -9,8 +9,8 @@ const Footer = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
-    <Box sx={{ background: "#FBD062", py: 10 }}>
-      <Container>
+    <Box sx={{ background: "#FBD062" }}>
+      <Container sx={{ py: 10 }}>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={12} md={6}>
             <Typography
@@ -48,6 +48,9 @@ const Footer = () => {
           </Grid>
         </Grid>
       </Container>
+      <Typography sx={{ textAlign: "center", py: 2 }}>
+        Copyright Orange labs 2021
+      </Typography>
     </Box>
   );
 };
