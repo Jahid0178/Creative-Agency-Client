@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <img src={Logo} alt="Logo" style={{ width: 150, marginBottom: 20 }} />
-      <Box className="login-content" sx={{ py: 10, px: 8 }}>
+      <Box className="login-content" sx={{ py: 15, px: 8 }}>
         <Box>
           <Typography
             variant="h6"
