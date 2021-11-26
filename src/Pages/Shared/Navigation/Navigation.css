@@ -1,7 +1,7 @@
 .login-btn {
-  width: 134px;
-  height: 45px;
-  background: #111430;
-  color: #fff;
-  margin-left: 20px;
+  width: 134px !important;
+  height: 45px !important;
+  background: #111430 !important;
+  color: #fff !important;
+  margin-left: 20px !important;
 }

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Home from "./Pages/Home/Home/Home";
+import Login from "./Pages/Login/Login/Login";
 import OurPortfolio from "./Pages/OurPortfolio/OurPortfolio";
 import OurTeam from "./Pages/OurTeam/OurTeam";
 import Navigation from "./Pages/Shared/Navigation/Navigation";
@@ -19,6 +20,7 @@ function App() {
           ></Route>
           <Route path="/team" element={<OurTeam></OurTeam>}></Route>
           <Route path="/contact" element={<ContactUs></ContactUs>}></Route>
+          <Route path="/login" element={<Login></Login>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
